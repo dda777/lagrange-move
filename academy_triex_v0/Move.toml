@@ -1,0 +1,11 @@
+[package]
+name = "academy_triex_v0"
+edition = "2024"
+
+[dependencies]
+academy_core = { local = "../academy_core" }
+triex = { git = "https://github.com/loash-industries/trinary-exchange", subdir = "packages/triex", rev = "d4c5b2198482fc5970d5acc71ad058a8a8d068cb" }
+token = { git = "https://github.com/loash-industries/trinary-exchange", subdir = "packages/token", rev = "d4c5b2198482fc5970d5acc71ad058a8a8d068cb", modes = ["test"] }
+
+[environments]
+testnet_stillness = "4c78adac"

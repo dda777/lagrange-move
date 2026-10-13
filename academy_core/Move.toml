@@ -1,0 +1,8 @@
+[package]
+name = "academy_core"
+edition = "2024"
+
+[dependencies]
+
+[environments]
+testnet_stillness = "4c78adac"

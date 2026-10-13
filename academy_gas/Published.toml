@@ -1,0 +1,9 @@
+
+[published.testnet_stillness]
+chain-id = "4c78adac"
+published-at = "0x58a87d61a711de84563fd02dc063e64182e73dcfda4acbc1840bbedcc92cf865"
+original-id = "0x3aed0dd01bbe97ad2dc6b339ef056c0e7f85c0821ea81d8ef0fc080ca9b31821"
+version = 2
+toolchain-version = "1.81.1"
+build-config = { flavor = "sui", edition = "2024" }
+upgrade-capability = "0x14aa07dfd92c95abf988d6559d486df3e80e85196da45b226064a883ef1db3c5"

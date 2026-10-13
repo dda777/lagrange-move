@@ -1,0 +1,9 @@
+[package]
+name = "academy_gas"
+edition = "2024"
+
+[dependencies]
+academy_core = { local = "../academy_core" }
+
+[environments]
+testnet_stillness = "4c78adac"

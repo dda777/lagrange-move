@@ -1,0 +1,9 @@
+[package]
+name = "academy_test_support"
+edition = "2024"
+
+[dependencies]
+world = { git = "https://github.com/evefrontier/world-contracts", subdir = "contracts/world", rev = "d3c7016b48a796ee70ecff7b892316f2d0170282" }
+
+[environments]
+testnet_stillness = "4c78adac"
