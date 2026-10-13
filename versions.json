@@ -8,7 +8,7 @@
     "toolchain": "1.81.1",
     "sourceCommit": "8c0f51c",
     "reproducible": true,
-    "verifiedUrl": null
+    "verifiedUrl": "https://suiscan.xyz/testnet/object/0xc5c2976ccf7b0f05cea9e762d346bb2ca8329f567e0ef9f9f8c9f11adb2d93a0/contracts"
   },
   {
     "tag": "academy_rewards-v2",
@@ -63,6 +63,6 @@
     "toolchain": "1.81.1",
     "sourceCommit": "8c0f51c",
     "reproducible": true,
-    "verifiedUrl": null
+    "verifiedUrl": "https://suiscan.xyz/testnet/object/0x3a357b3ff6a86de30135917968d555b07fc7f82e23052cfd0346f7b329ad104b/contracts"
   }
 ]

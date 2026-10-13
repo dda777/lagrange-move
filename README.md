@@ -9,15 +9,15 @@ I publish them so you don't have to take my word for what the site asks you to s
 <!-- versions:start -->
 | Package | Version | Published at | Original ID | Toolchain | Tag | Source |
 |---|---|---|---|---|---|---|
-| `academy_core` | 3 | `0xc5c2976ccf7b0f05cea9e762d346bb2ca8329f567e0ef9f9f8c9f11adb2d93a0` | `0xd3a6353ab5ccec51a7cc3f7a0c25c6caf72d98727481ed50dfeb7b479c7a70db` | 1.81.1 | `academy_core-v3` | pending verification |
+| `academy_core` | 3 | `0xc5c2976ccf7b0f05cea9e762d346bb2ca8329f567e0ef9f9f8c9f11adb2d93a0` | `0xd3a6353ab5ccec51a7cc3f7a0c25c6caf72d98727481ed50dfeb7b479c7a70db` | 1.81.1 | `academy_core-v3` | [verified](https://suiscan.xyz/testnet/object/0xc5c2976ccf7b0f05cea9e762d346bb2ca8329f567e0ef9f9f8c9f11adb2d93a0/contracts) |
 | `academy_rewards` | 2 | `0xc6ff5a7518196e6415bea1cde427c2ea89984df018b38a2f680ccceaff23eeb1` | `0xd239eebc3fb6b1a98653451e1303112b8b361fdf5823cff3c1231abd57eaa400` | 1.81.1 | `academy_rewards-v2` | pending verification |
 | `academy_gas` | 2 | `0x58a87d61a711de84563fd02dc063e64182e73dcfda4acbc1840bbedcc92cf865` | `0x3aed0dd01bbe97ad2dc6b339ef056c0e7f85c0821ea81d8ef0fc080ca9b31821` | 1.81.1 | `academy_gas-v2` | pending verification |
 | `academy_world_v0` | 3 | `0x1f9e98daf088a1ec527ccbf74db0e51185bff5fa5f6c0901f10bd35668c822c0` | `0x67b465bb898f2c502ea5cf0abedf2fad37ae8800501c1b8544f5005cd367e8ca` | 1.81.1 | `academy_world_v0-v3` | pending verification |
 | `academy_triex_v0` | 2 | `0x2e49717cc0398543b24e905d32a6d406152d78c1b75b97825e2d529672602e9f` | `0xd1aba1014d8eabd09fe5b01be0ec79faffee4a449922dd54c9d85910c0c83533` | 1.81.1 | `academy_triex_v0-v2` | pending verification |
-| `academy_arcade` | 2 | `0x3a357b3ff6a86de30135917968d555b07fc7f82e23052cfd0346f7b329ad104b` | `0xab6df728817087e90540bb3392ad2352f5d30f365e4f830fa92c5003d9e1472b` | 1.81.1 | `academy_arcade-v2` | pending verification |
+| `academy_arcade` | 2 | `0x3a357b3ff6a86de30135917968d555b07fc7f82e23052cfd0346f7b329ad104b` | `0xab6df728817087e90540bb3392ad2352f5d30f365e4f830fa92c5003d9e1472b` | 1.81.1 | `academy_arcade-v2` | [verified](https://suiscan.xyz/testnet/object/0x3a357b3ff6a86de30135917968d555b07fc7f82e23052cfd0346f7b329ad104b/contracts) |
 <!-- versions:end -->
 
-"pending verification" means the source is tagged here but I have not yet submitted it to an explorer. Earlier testnet versions are not published.
+"verified" links to the explorer page where the source was checked against the chain. "pending verification" means the explorer verifier does not accept the package yet: Suiscan currently verifies only packages without dependencies, and these four depend on `academy_core`. Until then, check them yourself with the steps under "Build and verify yourself". Earlier testnet versions are not published.
 
 ## Function map
 
