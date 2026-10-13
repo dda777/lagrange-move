@@ -7,3 +7,12 @@ version = 2
 toolchain-version = "1.81.1"
 build-config = { flavor = "sui", edition = "2024" }
 upgrade-capability = "0x06a3f556dfd6109cd68a9e767e6437ca1c7d127dd544ce220bc58343253ed09f"
+
+[published.testnet]
+chain-id = "4c78adac"
+published-at = "0xc6ff5a7518196e6415bea1cde427c2ea89984df018b38a2f680ccceaff23eeb1"
+original-id = "0xd239eebc3fb6b1a98653451e1303112b8b361fdf5823cff3c1231abd57eaa400"
+version = 2
+toolchain-version = "1.81.1"
+build-config = { flavor = "sui", edition = "2024" }
+upgrade-capability = "0x06a3f556dfd6109cd68a9e767e6437ca1c7d127dd544ce220bc58343253ed09f"
